@@ -21,7 +21,11 @@
                     <label for="idade">Idade</label>
                     <input class="form-control" type="number"  value="${aluno.idade}" name="idade" />
                 </div>
-                <br />
+                <div class="form-group">
+                    <label for="curso">Curso</label>
+                    <input class="form-control" type="text"  value="${aluno.curso}" name="curso" />
+                </div>
+        
                 <a class="btn btn-primary" href="/alunos/list">Voltar</a>
                 <button class="btn btn-success" type="submit">Salvar</button>
             </form>
